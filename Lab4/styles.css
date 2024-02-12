@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(6, 6, 56);
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+header{
+    background-color: rgb(25, 64, 100);
+    padding: 2rem;
+}
+header a{
+    color: rgb(66,211,221);
+}
+header{
+    text-align: center;
+}
+main{
+    padding: 1rem
+}
+.home-content div{
+    display: inline-block;
+    width: 60%;
+}
+.home-content img{
+    width: 38%;
+    vertical-align: top;
+}
+.jellies, .whales, .creatures{
+    background-color: rgb(19, 107, 114);
+    padding: 1rem;
+    display: inline-block;
+    margin: .5rem;
+    vertical-align: top;
+}
+.jellies{
+    width: 29%;
+}
+img{
+    max-width: 100%;
+}
+.whales{
+    width: 46%;
+}
+.creatures{
+    width: 29%;
+}

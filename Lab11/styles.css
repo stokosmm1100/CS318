@@ -37,11 +37,13 @@ header p{
     margin: 1rem;
     text-align: center;
     text-decoration: underline;
+    font-weight: 400;
 }
 .story{
     display: flex;
     align-items: flex-start;
     padding: 2rem;
+    
 }
 .story p{
     font-size: 2rem;
@@ -59,4 +61,195 @@ main footer{
     background-color: #778886;
     color: #F2EDE8;
     padding: 0.3rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main footer p{
+    padding: 0rem 17rem;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 1rem 17rem;
+}
+.menu article{
+   display: flex;
+   flex-wrap:wrap;
+   justify-content: center;
+   background-image: url(images/Gallop4.svg)
+}
+.menu div{
+    width: 48%;
+    padding-bottom: 2rem;
+}
+.beer h4{
+    margin: .5rem;
+}
+.menu{
+    text-align: center;
+}
+.menu img{
+    display: block;
+    margin: auto;
+    padding: 2rem;
+}
+.menu h2{
+    font-size: 3.5rem;
+    text-align: center;
+    text-decoration: underline;
+}
+.menu h3{
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.menu h4{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+    
+}
+.menu h5{
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 500px;
+    margin: auto;
+}
+.menu ol{
+    padding-left: 0;
+    
+}
+footer{
+    background-color: #778886;
+    color: #F2EDE8;
+    text-align: center;
+
+  
+    
+}
+footer div{
+    margin-left: calc(32% - (992px / 2));
+
+}
+footer p{
+    margin-top: 0;
+    font-size: 2rem;
+    display: inline-block;
+    margin: auto;
+    padding: 1rem 3.5rem;
+
+}
+footer p a{
+    font-size: 1.25rem;
+    color: #F2EDE8;
+    text-decoration: none;
+}
+body>header img{
+    width: 1600px;
+    max-width: 75%;
+    min-width: 300px;
+}
+.menu img{
+    width: 570px;
+}
+@media (max-width:500px){
+    ol{
+        list-style: none;
+    }
+    h1{
+        display: none;
+    }
+    body{
+        background-color: #F2EDE8;
+        margin: 0;
+        color: #778886;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .menu article{
+        display: block;
+        background-image: url(images/Gallop4.svg);
+        
+     }
+     .menu div{
+         width: 100%;
+         padding-bottom: 2rem;
+     }
+     .beer h4{
+         margin: .5rem;
+     }
+     .menu{
+         text-align: center;
+     }
+     .menu img{
+         display: block;
+         margin: auto;
+         padding: 2rem;
+     }
+     .menu h2{
+         font-size: 3.5rem;
+         text-align: center;
+         text-decoration: underline;
+     }
+     .menu h3{
+         font-size: 2.5rem;
+         font-weight: 400;
+         text-decoration: underline;
+     }
+     .menu h4{
+         font-size: 2rem;
+         font-weight: 400;
+         margin-bottom: .5rem;
+         
+     }
+     .menu h5{
+         font-size: 1.5rem;
+         font-weight: 400;
+         width: 480px;
+         margin: auto;
+     }
+     .menu ol{
+         padding-left: 0;
+         
+     }   
+     footer{
+        background-color: #778886;
+        color: #F2EDE8;
+        text-align: center;
+    
+      
+        
+    }
+    footer div{
+       
+        margin-left: unset;
+    }
+    footer p{
+        margin-top: 0;
+        font-size: 2rem;
+        display: block;
+        margin: auto;
+        padding: 1rem 3.5rem;
+    
+    }
+    footer p a{
+        font-size: 1.25rem;
+        color: #F2EDE8;
+        text-decoration: none;
+    }
+    .menu img{
+      width: 440px;
+    }
+    .story img{
+        max-width: 480px;
+    }
+    .story{
+        display: block;
+    }
+    #story a{
+        display: none;
+    }
+    #story{
+        padding: 2rem;
+    }
+
 }

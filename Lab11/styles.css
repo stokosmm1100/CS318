@@ -233,6 +233,9 @@ body>header img{
         margin: 0;
     
     }
+    main footer p{
+        padding: 0;
+    }
     footer p a{
         font-size: 1.25rem;
         color: #F2EDE8;
@@ -242,7 +245,8 @@ body>header img{
       width: 440px;
     }
     .story img{
-        max-width: 480px;
+        max-width: 90%;
+        width: 450px;
         display: block;
         margin: auto;
     }
@@ -272,6 +276,6 @@ body>header img{
 
         color: #F2EDE8;
         text-align: center;
-        padding: 10rem;
+        padding: 3rem 3rem 0;
     }
 }

@@ -1,0 +1,80 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    margin: 1rem;
+}
+img{
+    max-width: 100%;
+}
+h1{
+    display: none;
+}
+header{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: .25rem solid #9a82e8;
+}
+header img{
+    width: 5rem;
+    display: block;
+}
+nav>a{
+    color: #9a82e8;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    margin: .5rem;
+}
+nav>a:hover{
+    color: #3b325a;
+    border-bottom-color: #3b325a;
+}
+nav>a{
+    transition:all .2s ease-in-out;
+}
+section{
+    padding: 1rem 2rem;
+}
+.purple{
+    background-color: #9a82e8;
+    color: #fff;
+}
+footer{
+    background-color: #9a82e8;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+footer a{
+    color: #fff;
+}
+.social{
+    flex-basis: 100%;
+}
+.social img{
+    width: 4rem;
+    margin: .25rem;
+}
+section.headline{
+    background-image: url(images/cafe.png);
+    background-size: cover;
+    background-color: rgb(23, 0, 75);
+    padding: 5rem 2rem;
+    color: #fff;
+}
+.headline h2{
+    font-size: 6rem;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 1rem;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
+.headline p{
+    background-color: rgba(0,0,0,0.6);
+    padding: 1rem;
+    max-width: calc(100% - 2rem);
+    width: 20rem;
+}

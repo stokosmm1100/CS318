@@ -3,7 +3,8 @@ body{
     background-color: #18810f;
     color: #fff;
     /*Font family should be font-family: 'Montserrat', sans-serif;*/
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 header{
     background-color: #000;
@@ -13,7 +14,7 @@ header{
     text-align: center;
     font-size: 2rem;
     /*Font family should be font-family: 'Eater', cursive;*/
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Eater', cursive;
 }
 form>label{
     display: block;
@@ -46,7 +47,7 @@ input[type=Color]{
     border-radius: 2rem;
 }
 /*In front of each [type=etc] you need input:focus. Right now the properties you want applied when the input is focused happens all the time.*/
-input[type=text], [type=email], [type=date], [type=number], [type=color]{
+input:focus[type=text], input:focus[type=email], input:focus[type=date], input:focus[type=number], input:focus[type=color]{
     background-color: black;
     color: white;
     outline:none;

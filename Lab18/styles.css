@@ -1,18 +1,122 @@
 header{
     background-color: #f4b860;
     color: #32373b;
+    max-width: 1700px;
+    
 }
+header img{
+    padding: 3rem 0rem 3rem 0;
+}
+header nav a{
+    font-size: 30pt;
+    color:#32373b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 1rem 0 1rem 0;
+  
+   
+}
+header nav{
+    display: flex; 
+    justify-content:center;
+    gap: 1rem;
+}
+
 main{
     background-color: #32373b;
-    color: #fff
+    color: #fff;
+    font-size: 22pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
 }
 h2{
     color: #f4b860 ;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 48pt;
 }
 h3{
-    color: #fff
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: 600;
 }
 footer{
     background-color: #f4b860;
     color: #32373b;
+   
+}
+p{
+    padding: 1rem;
+}
+.colombian{
+    background-image: url(images/headline.jpg);
+    background-size: cover;
+    font-size: 36pt;
+    padding: 2rem 0 2rem 0rem;
+    font-weight: 700;
+}
+.colombian p{
+    text-align: center;
+}
+footer nav a{
+    font-size: 30pt;
+    color:#32373b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.socials a{
+    max-width: 125px;
+    display: block;
+    padding: 1rem;
+}
+.socials{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.page{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.socials img{
+    width: 100%;
+}
+p{
+    margin-top: 0;
+}
+main img{
+    max-width: 450px;
+    display: block; 
+    margin : auto;
+    
+}
+.coffee{
+    background-color: #f35c47;
+    border-radius: 4rem;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 20rem;
+    font-size: 30pt;
+
+}
+
+body{
+    background-color: #32373b;
+    margin: 0;
+}
+li{
+    margin-top: 1rem;
+}
+.buy img{
+    display: block; 
+    margin : auto;
+    padding: 1rem;
+}
+.buy{
+    padding: 0 0 1rem;
 }

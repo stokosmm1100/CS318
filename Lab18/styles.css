@@ -120,3 +120,28 @@ li{
 .buy{
     padding: 0 0 1rem;
 }
+@media (min-width:1000px){
+header img{
+    max-width: 66%;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items:  flex-end;
+}
+header nav a{
+    padding: 0;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+}
